@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://img1.goodfon.ru/wallpaper/nbig/6/a6/kosmos-art-tumannosti-ogni.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 2000px;
+}
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  max-width: 600px;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  margin-top: 1200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  justify-content: center;
+}
+.text {
+  display: block;
+  font-family: monospace;
+  text-align: justify;
+  padding: 2rem;
+  width: 600px;
+  font-size: 1.5rem;
+  text-indent: 2rem;
+  text-shadow: 2px 2px 4px #10332f8f;
+  transition: all 3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+  -webkit-transition: all 3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+  -o-transition: all 3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+  -moz-transition: all 3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+.text:nth-child(1) {
+  margin-left: -1200px;
+}
+.text:nth-child(2) {
+  margin-left: 1200px;
+}
+
+@media screen and (max-width: 600px){
+  .text{
+    width: 300px;
+    font-size: 1rem;
+  }
+}
+ 

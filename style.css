@@ -1,0 +1,255 @@
+.headerMainInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    background: linear-gradient(185deg, #b1b1b1, transparent);
+    padding: 2.5rem 15px;
+    justify-content: space-between;
+}
+
+.headerSiteName {
+    font-family: sans-serif;
+    font-size: 4rem;
+    color: #545454;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+.headerSiteName:hover {
+
+    font-family: sans-serif;
+
+    font-size: 6rem;
+
+    color: rgba(137, 141, 141, 0.74);
+
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    text-shadow: 2px -2px 2px #ffffffa8;
+}
+
+.headerMenu {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: normal;
+    justify-content: space-around;
+    align-items: normal;
+}
+
+.headerMenu a {
+    cursor: pointer;
+    padding: 0.3rem 1rem;
+    font-family: cursive;
+}
+
+@keyframes spin {
+    0% {
+        font-size: 2rem;
+    }
+    50% {
+        font-size: 4rem;
+    }
+    100% {
+        font-size: 2rem;
+    }
+}
+
+.headerDataContacts {
+    padding: 0 3%;
+    font-size: 20px;
+    color: #2f3131;
+}
+
+.headerDataContacts:hover {
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    padding: 0 3%;
+    font-size: 25px;
+    color: #4b4b4b;
+    text-shadow: 2px 2px 2px #ffffff;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #cccccc;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+footer:hover {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 20px;
+    background-color: #ccccccb0;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    margin: 0 1%;
+    text-indent: 3%;
+    text-align: justify;
+}
+
+footer div {
+    margin: 0.5%;
+    cursor: pointer;
+}
+
+.headerMenu {
+    background-color: #cccccc;
+    padding: 1%;
+    margin: 1%;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+.headerMenu:hover {
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    background-color: #ccccccb0;
+    padding: 1%;
+    box-shadow: 0 0 0 #2f3337;
+}
+
+a {
+    color: #2f3131;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+a:visited {
+    color: white;
+    text-shadow: 2px -2px 0 rgba(0, 0, 0, 0.72);
+}
+
+a:hover {
+    color: #1c1d1dcf;
+    text-shadow: 2px -2px 0 #ffffffb8;
+    font-size: 18px;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+.cat {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    font-family: monospace;
+    font-size: 3rem;
+    padding: 10px;
+    animation: spin 5s linear 0s infinite;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    justify-content: center;
+}
+
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Book.woff);
+    font-family: 'Suisse';
+    font-weight: normal;
+}
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Bold.woff);
+    font-family: 'Suisse';
+    font-weight: bold;
+}
+.procrastinate {
+    background-color: #323131;
+    color: white;
+    position: relative;
+    max-width: 540px;
+    min-height: 100%;
+    margin: 3rem auto;
+    font-family: 'Suisse', serif;
+    box-sizing: border-box;
+    padding: 15px 35px;
+}
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.logo {
+    width: 150px;
+}
+.button {
+    width: 130px;
+    height: 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.button:hover {
+    opacity: 0.5;
+}
+.image {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+}
+.advice {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+.cursor {
+    max-width: 15px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}

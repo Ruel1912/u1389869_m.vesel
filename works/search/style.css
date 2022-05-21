@@ -1,0 +1,40 @@
+span {
+    background-color: yellow;
+}
+
+p {
+    text-indent: 2rem;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #60606033;
+    min-width: 800px;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 3rem 8rem;
+    align-items: center;
+}
+
+button {
+    margin: 2rem 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 15rem;
+}
+
+input {
+    padding: 10px;
+    width: 15rem;
+    border-radius: 5px;
+}
+
+h1 {
+
+    font-size: 3rem;
+    color: darkslateblue;
+    font-family: system-ui;
+}

@@ -1,0 +1,375 @@
+* {padding: 0;margin: 0;border: 0;}
+*, *:before, *:after {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+nav, footer, header {display: block;}
+html, body {height: 100%;width: 100%;line-height: 1;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+button {font-family: inherit;}
+button{cursor: pointer}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+img {}
+h1, h2{font-size: inherit;font-weight: 400;text-align: center;font-size: 1.5rem;font-weight: bold;min-width: 23rem;padding: 10px 0;}
+/*----------------------------------------------------------*/
+body {
+    font-family: Roboto, Arial, Verdana, sans-serif;
+}
+header{border-top: 3px solid #ef5048;display: flex;position: fixed;z-index: 1;background-color: #fff;width: inherit;padding: 5px;}
+.header_logo{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+.header_icon{
+
+    width: 2rem;
+}
+.header_title{
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    width: 180px;
+
+    padding: 0 5px;
+}
+nav{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+nav a{color: #8A8492;font-weight: bold;font-size: 0.9rem;padding: 10px;}
+nav a:hover{color: #c6c3ca;-webkit-transition-duration: .4s;transition-duration: .4s;}
+button{
+
+    font-weight: 600;
+
+    font-size: 1rem;
+
+    background-color: #3b5997;
+
+    border-radius: 4px;
+
+    text-align: center;
+
+    padding: 5px 16px;
+
+    color: #fff;
+
+    max-height: 30px;
+}
+.main_description{
+    background-image: url("img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 1280px;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    min-width: 1100px;
+    justify-content: space-evenly;
+}
+.main_description_content{
+
+    display: grid;
+
+    grid-template: 1fr / 1fr 1fr;
+}
+.main_title{
+
+    color: #fff;
+
+    font-size: 2rem;
+
+    font-weight: bold;
+
+    width: 22.5rem;
+
+    text-align: right;
+}
+.main_info{
+
+}
+.main_wrapper{
+
+    display: inline-grid;
+
+    grid-template: 30% 40% 30% / repeat(2, minmax(auto, 1fr));
+
+    width: 500px;
+}
+.main_wrapper p{
+
+    color: #fff;
+
+    padding: 0 10px;
+
+    font-size: 1rem;
+
+    width: 22.5rem;
+
+    grid-column: 2;
+}
+.button_list_colleges{
+    grid-column: 2;
+    height: 2em;
+    background-color: #3B5998;
+    color: #fff;
+    margin-right: unset;
+}
+.button_list_colleges:hover{
+
+}
+.best-practice{
+
+    margin: 6rem 12rem;
+}
+.best-practice_title{
+
+    letter-spacing: 1px;
+
+    min-width: 25rem;
+}
+mark{
+    background-color: unset;
+    font-weight: bold;
+}
+.best-practice_prize{margin: 2rem 0;background-color: #fff;border-top: 4px solid #9369c7;display: flex;flex-flow: column wrap;}
+.best-practice_prize_content{
+
+    box-shadow: 0 0 0 1px #0000003d;
+
+    padding: 2rem 0.5rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+.best-practice_prize_content:hover{
+
+    background-color: #f0f4f9;
+
+    -webkit-transition-duration: .4s;
+
+    transition-duration: .4s;
+}
+button:hover{
+
+    -webkit-transition-duration: .4s;
+
+    transition-duration: .4s;
+
+    background-color: #1d3159;
+}
+.best-practice_prize_content_nomination{
+
+    max-width: 55rem;
+
+    min-width: auto;
+
+    font-size: 18px;
+
+    padding: 1rem;
+}
+.certificate_and_diploma{
+
+    margin: 0 12rem;
+}
+.certificate_and_diploma_item button{
+
+    margin-right: 4rem;
+}
+.certificate_and_diploma_items{
+
+    margin: 2rem 0;
+
+    background-color: #fff;
+
+    border-top: 4px solid #9369c7;
+
+    display: flex;
+
+    flex-flow: column wrap;
+}
+.certificate_and_diploma_item:hover{
+
+    background-color: #f0f4f9;
+
+    -webkit-transition-duration: .4s;
+
+    transition-duration: .4s;
+}
+.list_colleges_item:hover{
+
+    background-color: #f0f4f9;
+
+    -webkit-transition-duration: .4s;
+
+    transition-duration: .4s;
+}
+.certificate_and_diploma_item{
+
+    box-shadow: 0 0 0 1px #0000003d;
+
+    padding: 2rem 0.5rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+.RUMO{
+
+    margin: 0 12rem;
+}
+.RUMO_images{
+
+    display: flex;
+
+    justify-content: space-around;
+}
+.RUMO_image{
+
+    width: 200px;
+
+    height: 250px;
+
+    border: 1px solid;
+
+    margin: 0 1rem;
+
+    min-width: 100px;
+}
+.theMostFilledColleges{
+
+    margin: 6rem 12rem;
+}
+.theMostFilledColleges_cards{
+
+    display: grid;
+
+    grid-template: repeat(2, minmax(auto, 1fr)) / repeat(4, minmax(auto, 1fr));
+
+    justify-content: center;
+
+    align-items: center;
+}
+.theMostFilledColleges_card{
+
+    margin: 1rem;
+
+    padding: 0.5rem;
+
+    border: 1px solid #00000042;
+
+    width: 200px;
+
+    height: 300px;
+}
+
+.theMostFilledColleges_card button {
+    width: 11.3125rem;
+}
+.card_icon{
+
+    width: auto;
+
+    height: 50px;
+
+    border: 1px solid;
+}
+.card_title{
+
+    padding: 15px 5px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+.card_parameters{
+
+    text-align: center;
+
+    font-size: 2rem;
+
+    font-weight: bold;
+
+    border-top: 1px solid #00000042;
+
+    padding: 1rem;
+}
+.list_colleges{
+
+    margin: 0 12rem;
+}
+.list_colleges_items{
+
+    margin: 2rem 0;
+
+    background-color: #fff;
+
+    border-top: 4px solid #9369c7;
+
+    display: flex;
+
+    flex-flow: column wrap;
+}
+.list_colleges_item{
+
+    box-shadow: 0 0 0 1px #0000003d;
+
+    padding: 2rem 0.5rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+.list_colleges_item_icon{
+
+}
+.list_colleges_item_title{
+
+}
+.list_colleges_item_info{
+
+}
+footer{min-width: 658px;}
+h3{
+
+    background-color: #333;
+
+    color: #666;
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 0.9rem;
+}
+
+h3 {}
+
+h2::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 80px;
+    background-color: #ef5048;
+    margin: 10px auto;
+}

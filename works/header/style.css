@@ -1,0 +1,189 @@
+.headerMainInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(185deg, #b1b1b1, transparent);
+}
+
+.headerSiteName {
+    font-family: sans-serif;
+    font-size: 4rem;
+    color: #545454;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+.headerSiteName:hover {
+
+    font-family: sans-serif;
+
+    font-size: 6rem;
+
+    color: rgba(137, 141, 141, 0.74);
+
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+
+    text-shadow: 2px -2px 2px #ffffffa8;
+}
+
+.headerMenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: normal;
+    justify-content: space-around;
+    align-items: normal;
+}
+
+.headerMenu a {
+    cursor: pointer;
+    padding: 0.3rem 1rem;
+    font-family: cursive;
+}
+
+.headerLogo {
+    animation: spin 5s linear 0s infinite;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    padding: 4%;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.headerDataContacts {
+    padding: 0 3%;
+    font-size: 20px;
+    color: #2f3131;
+}
+
+.headerDataContacts:hover {
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    padding: 0 3%;
+    font-size: 25px;
+    color: #4b4b4b;
+    text-shadow: 2px 2px 2px #ffffff;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #cccccc;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 37%;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+footer:hover {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 20px;
+    background-color: #ccccccb0;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    margin: 0 1%;
+    text-indent: 3%;
+    text-align: justify;
+}
+
+footer div {
+    margin: 0.5%;
+    cursor: pointer;
+}
+
+
+img {
+    width: 100px;
+    max-width: 100px;
+}
+
+.headerMenu {
+    background-color: #cccccc;
+    padding: 1%;
+    margin: 1%;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+.headerMenu:hover {
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    background-color: #ccccccb0;
+    padding: 1%;
+    box-shadow: 0 0 0 #2f3337;
+}
+
+a {
+    color: #2f3131;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
+
+a:visited {
+    color: white;
+    text-shadow: 2px -2px 0 rgba(0, 0, 0, 0.72);
+}
+
+a:hover {
+    color: #1c1d1dcf;
+    text-shadow: 2px -2px 0 #ffffffb8;
+    font-size: 20px;
+    transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -webkit-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -o-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -ms-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+    -moz-transition: all 0.3s cubic-bezier(0.41, 0.03, 0.22, 0.97);
+}
